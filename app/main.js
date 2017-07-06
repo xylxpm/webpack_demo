@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-
+import Index from './views/index.jsx'
 ReactDOM.render(
-    <div>hello world!!</div>,
+    <div><Index /></div>,
     document.querySelector('.content')
 );
